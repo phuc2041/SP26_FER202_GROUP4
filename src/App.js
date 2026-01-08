@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
+  function checkPositiveNumber(num) {
+    let sum = 0;
+    let check = num > 0 && num % 0 == 1;
+    return check;
+  }
   return (
     <div className="App">
       <header className="App-header">
